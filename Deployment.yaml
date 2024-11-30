@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: flaskapp32
-        image: thejasbp/flaskappexam:v1
+        image: neehar2601/flaskappexam:v1
         ports:
         - containerPort: 5070
