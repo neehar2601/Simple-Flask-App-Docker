@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flaskapp32
+  labels:
+    app: flaskapp32
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flaskapp32
+  template:
+    metadata:
+      labels:
+        app: flaskapp32
+    spec:
+      containers:
+      - name: flaskapp32
+        image: thejasbp/flaskappexam:v1
+        ports:
+        - containerPort: 5070
