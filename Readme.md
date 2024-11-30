@@ -213,3 +213,7 @@ Feel free to contribute to this project by opening issues or pull requests.
 This project is licensed under the Apache License. See the [LICENSE](LICENSE) file for details.
 
 
+sudo apt update -y
+sudo apt install python3 python3-pip -y 
+pip3 install -r requirements.txt
+python3 run.py &
